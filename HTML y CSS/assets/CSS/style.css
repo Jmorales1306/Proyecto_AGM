@@ -1,0 +1,151 @@
+/* Fuente Personalizada */
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../fount/Tangerine_Bold.ttf);
+}
+
+/* estilo general */
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* encabezado */
+.header {
+    background: #FFD65E;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.menu{
+    background: #FB3200;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    background: #4300FF;
+    flex: 3.1 auto;
+    height: 30px;
+}
+
+.nav{
+    background: #A63DD9;
+    flex: 7.1 auto;
+    height: 30px;
+    width: 60px;
+    
+}
+
+.iconos{
+    background: #0BFF01;
+    flex: 3.1 auto;
+    height: 30px;
+}
+
+/* contenido */
+.contenido-principal {
+    background: #00DAFA;
+    flex: 1.1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+.producto1,
+.producto2,
+.producto3,
+.producto4,
+.producto5{
+    display: flex;
+    flex-flow: row wrap;
+    
+    background: #FFF;
+    flex: 1.1 40% ;
+    height: 270px;
+
+    margin: 0;
+    padding: 0;
+}
+
+div[class="imagen-producto"]{
+    background: #0201FF;
+    flex: 1 ;
+    position: relative;
+
+    
+}
+
+div[class="descripcion"]{   
+    background: #000;
+    flex: 1 ;
+    position: relative;
+   
+    
+}
+
+div[class="descripcion"] > div{
+    padding: 0;
+    margin: 0;
+}
+
+.catalogo{
+    background: #D93D7E;
+    flex: 1.1 100% ;
+    height: 280px;
+
+}
+
+.img{
+    width: 100%;    
+    height: auto;
+}
+
+
+
+
+/* redes sociales */
+
+.social{
+    background: #000;
+}
+
+.footer {
+    background: #000;
+}
+
+
+
+
+
+
+/*h1 {
+    font-family: 'Tangerine', sans-serif;
+    font-size: 44px;
+    margin: auto;
+}
+
+.logo {
+    position: absolute;
+    height: 30px;
+    width: 33px;
+    left: 226px;
+    top: 31px;
+    border-radius: 0px;
+
+}
+
+A[target="_blank"]{
+    text-decoration: none;
+    font-weight: bold;
+}*/
